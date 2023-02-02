@@ -1,0 +1,65 @@
+* {
+    background-color: rgb(25,33,41);
+    color: rgb(255,255,255);
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    padding-top: 100px;
+    width: 100vw;    
+}
+
+input {
+    background-color: white;
+    color: black;
+    width: 180px;
+    border-color:  rgb(67, 163, 230);
+    border-radius: 3px;
+
+}
+
+button {
+    margin-top: 5px;
+    padding: 5px;
+    background-color: rgb(67, 163, 230);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+#comment {
+    height: 100px;
+    background-color: white;
+    border-color:  rgb(67, 163, 230);
+    border-radius: 3px;
+    margin-right: 10px ;
+}
+
+
+#form-container {
+    margin: auto;
+    width: 250px;
+    box-sizing: border-box;
+    border: 2px solid rgb(67, 163, 230);
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.checkbox-imp {
+    width: 20px;
+    margin: 0 0 0 20px;
+}
+.email-update {
+    font-style: oblique;
+    width: 150px;
+}
+
+.checkbox {
+    display: flex;
+}
